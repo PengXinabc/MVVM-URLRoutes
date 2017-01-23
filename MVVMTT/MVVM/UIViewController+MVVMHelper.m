@@ -7,7 +7,6 @@
 //
 
 #import "UIViewController+MVVMHelper.h"
-#import "PXViewModel.h"
 #import <objc/runtime.h>
 
 @interface UIViewController ()

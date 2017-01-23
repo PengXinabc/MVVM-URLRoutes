@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class PXViewModel;
 
 @interface UIViewController (MVVMHelper)
 

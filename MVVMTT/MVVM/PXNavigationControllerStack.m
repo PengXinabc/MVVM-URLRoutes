@@ -9,7 +9,6 @@
 #import "PXNavigationControllerStack.h"
 #import <UIKit/UIKit.h>
 #import "PXRouter.h"
-#import "AppDelegate.h"
 #import "JLRoutes.h"
 #import "UIViewController+MVVMHelper.h"
 
