@@ -13,7 +13,6 @@
 		76024EBF1E19FABB00E7907B /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76024EBD1E19FABB00E7907B /* SecondController.m */; };
 		76024EC01E19FABB00E7907B /* SecondController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76024EBE1E19FABB00E7907B /* SecondController.xib */; };
 		76024EC41E1A01F300E7907B /* SecondViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76024EC31E1A01F300E7907B /* SecondViewModel.m */; };
-		76024EC71E1A577B00E7907B /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 76024EC61E1A577B00E7907B /* JLRoutes.m */; };
 		7635F1A71E35A1A900BCF6DE /* PXViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7635F1A51E359CDB00BCF6DE /* PXViewModel.m */; };
 		76D5B0111E177F2C00A2501B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D5B0101E177F2C00A2501B /* main.m */; };
 		76D5B0141E177F2C00A2501B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D5B0131E177F2C00A2501B /* AppDelegate.m */; };
@@ -59,8 +58,6 @@
 		76024EBE1E19FABB00E7907B /* SecondController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondController.xib; sourceTree = "<group>"; };
 		76024EC21E1A01F300E7907B /* SecondViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewModel.h; sourceTree = "<group>"; };
 		76024EC31E1A01F300E7907B /* SecondViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewModel.m; sourceTree = "<group>"; };
-		76024EC51E1A577B00E7907B /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
-		76024EC61E1A577B00E7907B /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
 		7635F1A41E359CDB00BCF6DE /* PXViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXViewModel.h; path = ../PXViewModel.h; sourceTree = "<group>"; };
 		7635F1A51E359CDB00BCF6DE /* PXViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXViewModel.m; path = ../PXViewModel.m; sourceTree = "<group>"; };
 		76A559951E249516006E5A85 /* PXSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXSingleton.h; sourceTree = "<group>"; };
@@ -173,8 +170,6 @@
 				76E2504A1E1F7F8600CD2D52 /* WebViewController.h */,
 				76E2504B1E1F7F8600CD2D52 /* WebViewController.m */,
 				76E2504D1E1F818600CD2D52 /* WebViewController.xib */,
-				76024EC51E1A577B00E7907B /* JLRoutes.h */,
-				76024EC61E1A577B00E7907B /* JLRoutes.m */,
 				76D5B0181E177F2C00A2501B /* Main.storyboard */,
 				76D5B01B1E177F2C00A2501B /* Assets.xcassets */,
 				76D5B01D1E177F2C00A2501B /* LaunchScreen.storyboard */,
@@ -442,7 +437,6 @@
 				76E2503F1E1F492600CD2D52 /* AppDelegateViewModel.m in Sources */,
 				76D5B0171E177F2C00A2501B /* ViewController.m in Sources */,
 				76024EBF1E19FABB00E7907B /* SecondController.m in Sources */,
-				76024EC71E1A577B00E7907B /* JLRoutes.m in Sources */,
 				76E2504C1E1F7F8600CD2D52 /* WebViewController.m in Sources */,
 				76024EC41E1A01F300E7907B /* SecondViewModel.m in Sources */,
 				76D5B04A1E17909A00A2501B /* PXViewModelServicesImpl.m in Sources */,

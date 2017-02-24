@@ -7,7 +7,6 @@
 //
 
 #import "PXRouter.h"
-#import "PXViewModel.h"
 #import "UIViewController+MVVMHelper.h"
 
 @interface PXRouter ()

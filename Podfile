@@ -6,4 +6,6 @@ target 'MVVMTT' do
 
 pod 'ReactiveCocoa', '~> 2.5'
 
+pod 'JLRoutes', '~> 2.0'
+
 end

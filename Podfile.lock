@@ -1,4 +1,5 @@
 PODS:
+  - JLRoutes (2.0)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -8,11 +9,13 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
+  - JLRoutes (~> 2.0)
   - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
+  JLRoutes: 0bead23690bafa726e1528aa6459a56c9b81cb5e
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: e9b74ceb1f7ca0b5fe6e2eb4b5569031720ab5bd
+PODFILE CHECKSUM: 394362720aa48b30c8b1fb769f852eccbb9fed76
 
 COCOAPODS: 1.0.1
