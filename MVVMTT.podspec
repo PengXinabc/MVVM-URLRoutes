@@ -3,9 +3,10 @@ Pod::Spec.new do |s|
 
   s.name         = "MVVMTT"
   s.version      = "0.0.1"
-  s.summary      = "一个简单的MVVM+URLRoutes,解耦项目架构,也可以为组件化、动态化路由做基础"
+  s.summary      = "MVVM,URLRoutes,RAC"
   s.description  = <<-DESC
-                   MVVM,URLRoutes,RAC
+                   一个简单的MVVM+URLRoutes,解耦项目架构,也可以为组件化、动态化
+路由做基础
 		   DESC
 
   s.homepage     = "https://github.com/PengXinabc/MVVM-URLRoutes"
@@ -30,7 +31,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MVVM/*.{h,m}"
+  s.source_files  = 'MVVMTT/MVVM/*.{h,m}'
 
   s.framework  = "UIKit"
 
