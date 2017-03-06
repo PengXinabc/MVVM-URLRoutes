@@ -22,8 +22,7 @@
 singletonImplementation(Instance)
 
 - (void)addRoute {
-    
-    [JLRoutes addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
+    [[JLRoutes globalRoutes] addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         UIViewController *currentVc = UIViewController.currentController;
         UIViewController *targetVc = [[NSClassFromString(parameters[@"controller"]) alloc] init];
         [targetVc bindParams:parameters];
@@ -31,8 +30,7 @@ singletonImplementation(Instance)
         [currentVc.navigationController pushViewController:targetVc animated:YES];
         return YES;
     }];
-    
-    [JLRoutes addRoute:@"/Present/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
+    [[JLRoutes globalRoutes] addRoute:@"/Present/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         UIViewController *currentVc = UIViewController.currentController;
         UIViewController *targetVc = [[NSClassFromString(parameters[@"controller"]) alloc] init];
         [targetVc bindParams:parameters];
@@ -42,16 +40,13 @@ singletonImplementation(Instance)
         return YES;
     }];
     
-    [JLRoutes addRoute:@"/StoryBoardPush" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
-       //...
-        return YES;
-    }];
-    
-    [JLRoutes addRoute:@"/Root/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
-        
+    [[JLRoutes globalRoutes] addRoute:@"/StoryBoardPush" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
         //...
         return YES;
-        
+    }];
+    [[JLRoutes globalRoutes] addRoute:@"/Root/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        //...
+        return YES;
     }];
     
 }
