@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MVVMTT"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "MVVM,URLRoutes,RAC"
   s.description  = <<-DESC
                    一个简单的MVVM+URLRoutes,解耦项目架构,也可以为组件化、动态化
