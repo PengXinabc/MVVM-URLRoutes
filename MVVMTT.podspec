@@ -12,9 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/PengXinabc/MVVM-URLRoutes"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  s.license      = "MIT"
-
-  s.license      = { :type => "MIT"， :file => "LICENSE" }
+  s.license  = 'MIT'
   
   s.author             = { "彭欣" => "pds296@126.com" }
  
